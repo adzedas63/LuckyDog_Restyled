@@ -1,0 +1,553 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html>
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="lt-LT" xmlns:og="http://opengraphprotocol.org/schema/" >
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg" type="image/jpeg"/>
+<link rel="shortcut icon" href="https://static.wixstatic.com/media/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg" type="image/jpeg"/>
+<link rel="apple-touch-icon" href="https://static.wixstatic.com/media/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg" type="image/jpeg"/>
+
+<!-- Safari Pinned Tab Icon -->
+<!-- <link rel="mask-icon" href="https://static.wixstatic.com/media/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/ee4d12_105543cc5d3944c6a64ba59663e2c332%7Emv2_d_5641_5657_s_4_2.jpg"> -->
+
+<!-- Original trials -->
+
+  <script async="" src="https://static.parastorage.com/services/wix-thunderbolt/dist/originTrials.41d7301a.bundle.min.js"></script>
+
+
+<!-- Legacy Polyfills -->
+<script nomodule="" src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"></script>
+<script nomodule="" src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js"></script>
+
+
+  <script nomodule="" src="https://polyfill-fastly.io/v3/polyfill.min.js?features=fetch"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<!-- Performance API Polyfills -->
+<script>
+(function () {
+  var noop = function noop() {};
+  if ("performance" in window === false) {
+	window.performance = {};
+  }
+  window.performance.mark = performance.mark || noop;
+  window.performance.measure = performance.measure || noop;
+  if ("now" in window.performance === false) {
+	var nowOffset = Date.now();
+	if (performance.timing && performance.timing.navigationStart) {
+	  nowOffset = performance.timing.navigationStart;
+	}
+	window.performance.now = function now() {
+	  return Date.now() - nowOffset;
+	};
+  }
+})();
+</script>
+
+<!-- Globals Definitions -->
+<script>
+  (function () {
+	var now = Date.now()
+	window.initialTimestamps = {
+	  initialTimestamp: now,
+	  initialRequestTimestamp: Math.round(performance.timeOrigin ? performance.timeOrigin : now - performance.now())
+	}
+
+	window.thunderboltTag = "libs-releases-GA-local"
+	window.thunderboltVersion = "1.13916.0"
+  })();
+</script>
+
+  
+
+
+<!-- sendFedopsLoadStarted.inline -->
+<script type="application/json" id="wix-fedops">{"data":{"site":{"metaSiteId":"72c60924-639b-4ec1-9fbd-0b8ca1fa7ad1","userId":"ee4d12a0-9840-4f97-be97-2090889029f2","siteId":"1b326a4c-d208-459a-b753-5a01fe2354ab","externalBaseUrl":"https:\/\/www.barkvilis.lt","siteRevision":1863,"siteType":"UGC","dc":"84","isResponsive":false,"editorName":"Unknown","sessionId":"43610754-fe64-4cc3-a6a6-bfe609bee50c","isSEO":false,"appNameForBiEvents":"thunderbolt"},"rollout":{"siteAssetsVersionsRollout":false,"isDACRollout":0,"isTBRollout":false},"fleetConfig":{"fleetName":"thunderbolt-renderer-user-code","type":"GA","code":0},"requestUrl":"https:\/\/www.barkvilis.lt\/sunu-nukailinimas","isInSEO":false,"platformOnSite":true}}</script>
+<script>window.fedops = JSON.parse(document.getElementById('wix-fedops').textContent)</script>
+<script id='sendFedopsLoadStarted'>
+  !function(){function r(r,e){var t,n=Object.keys(r);return Object.getOwnPropertySymbols&&(t=Object.getOwnPropertySymbols(r),e&&(t=t.filter(function(e){return Object.getOwnPropertyDescriptor(r,e).enumerable})),n.push.apply(n,t)),n}function e(n){for(var e=1;e<arguments.length;e++){var i=null!=arguments[e]?arguments[e]:{};e%2?r(Object(i),!0).forEach(function(e){var r,t;r=n,e=i[t=e],(t=function(e){e=function(e,r){if("object"!=typeof e||null===e)return e;var t=e[Symbol.toPrimitive];if(void 0===t)return("string"===r?String:Number)(e);r=t.call(e,r||"default");if("object"!=typeof r)return r;throw new TypeError("@@toPrimitive must return a primitive value.")}(e,"string");return"symbol"==typeof e?e:String(e)}(t))in r?Object.defineProperty(r,t,{value:e,enumerable:!0,configurable:!0,writable:!0}):r[t]=e}):Object.getOwnPropertyDescriptors?Object.defineProperties(n,Object.getOwnPropertyDescriptors(i)):r(Object(i)).forEach(function(e){Object.defineProperty(n,e,Object.getOwnPropertyDescriptor(i,e))})}return n}var n=function(e){var r,t,n=!1;if(null===(r=window.viewerModel)||void 0===r||!/\(iP(hone|ad|od);/i.test(null===(r=window)||void 0===r||null===(t=r.navigator)||void 0===t?void 0:t.userAgent))try{n=navigator.sendBeacon(e)}catch(e){}n||((new Image).src=e)};var t,i,o,a,s=window.fedops.data,c=s.site,d=s.rollout,l=s.fleetConfig,u=s.requestUrl,p=s.isInSEO,f=s.frogOnUserDomain,m=function(e){e=e.navigator.userAgent;return!/instagram.+google\/google/i.test(e)&&/bot|google(?!play)|phantom|crawl|spider|headless|slurp|facebookexternal|Lighthouse|PTST|^mozilla\/4\.0$|^\s*$/i.test(e)?"ua":""}(window)||function(){try{if(window.self===window.top)return""}catch(e){}return"iframe"}()||function(){if(!Function.prototype.bind)return"bind";var e=window,r=e.document,t=e.navigator;if(!r||!t)return"document";var n=t.webdriver,i=t.userAgent,e=t.plugins,t=t.languages;if(n)return"webdriver";if(!e||Array.isArray(e))return"plugins";if(null!==(e=Object.getOwnPropertyDescriptor(e,"0"))&&void 0!==e&&e.writable)return"plugins-extra";if(!i)return"userAgent";if(0<i.indexOf("Snapchat")&&r.hidden)return"Snapchat";if(!t||0===t.length||!Object.isFrozen(t))return"languages";try{throw Error()}catch(e){if(e instanceof Error){t=e.stack;if(t&&/ (\(internal\/)|(\(?file:\/)/.test(t))return"stack"}}return""}()||(p?"seo":""),w=!!m,p=(t=document.cookie,i=function(){return performance.getEntriesByType("navigation")[0].serverTiming||[]},a="none",!(t=t.match(/ssr-caching="?cache[,#]\s*desc=([\w-]+)(?:[,#]\s*varnish=(\w+))?(?:[,#]\s*dc[,#]\s*desc=([\w-]+))?(?:"|;|$)/))&&window.PerformanceServerTiming&&(o=(i=function(e){var r,t;try{r=e()}catch(e){r=[]}var n=[];return r.forEach(function(e){switch(e.name){case"cache":n[1]=e.description;break;case"varnish":n[2]=e.description;break;case"dc":t=e.description}}),{microPop:t,matches:n}}(i)).microPop,t=i.matches),t&&t.length&&(a=`${t[1]},${t[2]||"none"}`,o=o||t[3]),"none"!==a||(t="undefined"!=typeof performance?performance.timing:null)&&t.responseStart-t.requestStart==0&&(a="browser"),e({caching:a,isCached:a.includes("hit")},o?{microPop:o}:{})),v=p.isCached,g=p.caching,h=p.microPop,b={WixSite:1,UGC:2,Template:3}[c.siteType]||0,x=c.isResponsive?"thunderbolt-responsive":"thunderbolt",p=d.isDACRollout,d=d.siteAssetsVersionsRollout,y=p?1:0,O=d?1:0,S=0===l.code||1===l.code?l.code:null,P=Date.now()-window.initialTimestamps.initialTimestamp,T=Math.round(performance.now()),j=document.visibilityState,d=window,_=d.fedops,l=d.addEventListener,A=d.thunderboltVersion;_.apps=_.apps||{},_.apps[x]={startLoadTime:T},_.sessionId=c.sessionId,_.vsi="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(e){var r=16*Math.random()|0;return("x"===e?r:3&r|8).toString(16)}),_.is_cached=v,_.phaseStarted=I(28),_.phaseEnded=I(22),performance.mark("[cache] "+g+(h?" ["+h+"]":"")),_.reportError=function(e){var r=(null==e?void 0:e.reason)||(null==e?void 0:e.message);r?($(26,`&errorInfo=${r}&errorType=load`),k({error:{name:"load",message:r,stack:e?.stack}})):e.preventDefault()},l("error",_.reportError),l("unhandledrejection",_.reportError);var E=!1;function $(e,r){var t=1<arguments.length&&void 0!==r?r:"";u.includes("suppressbi=true")||(t=(f?c.externalBaseUrl.replace(/^https?:\/\//,"")+"/_frog":"//frog.wix.com")+"/bolt-performance?src=72&evid="+e+"&appName="+x+"&is_rollout="+S+"&is_sav_rollout="+O+"&is_dac_rollout="+y+"&dc="+c.dc+(h?"&microPop="+h:"")+"&is_cached="+v+"&msid="+c.metaSiteId+"&session_id="+window.fedops.sessionId+"&ish="+w+"&isb="+w+(w?"&isbr="+m:"")+"&vsi="+window.fedops.vsi+"&caching="+g+(E?",browser_cache":"")+"&pv="+j+"&pn=1&v="+A+"&url="+encodeURIComponent(u)+"&st="+b+`&ts=${P}&tsn=${T}`+t,n(t))}function k({transaction:e,error:r}){e=[{fullArtifactId:"com.wixpress.html-client.wix-thunderbolt",componentId:`thunderbolt${window.fedops.data.site.isResponsive?"-responsive":""}`,platform:"viewer",msid:window.fedops.data.site.metaSiteId,sessionId:window.fedops.sessionId,sessionTime:Date.now()-window.initialTimestamps.initialTimestamp,logLevel:r?"ERROR":"INFO",message:r?.message??(e?.name&&`${e.name} START`),errorName:r?.name,errorStack:r?.stack,transactionName:e?.name,transactionAction:e&&"START",isSsr:!1,dataCenter:c.dc,isCached:!!v,isRollout:!!S,isHeadless:!!w,isDacRollout:!!y,isSavRollout:!!O}];try{var t=JSON.stringify({messages:e});return navigator.sendBeacon("https://panorama.wixapps.net/api/v1/bulklog",t)}catch(e){console.error(e)}}function I(n){return function(e,r){var t=`&name=${e}&duration=${Date.now()-P}`,e=r&&r.paramsOverrides?Object.keys(r.paramsOverrides).map(function(e){return e+"="+r.paramsOverrides[e]}).join("&"):"";$(n,e?`${t}&${e}`:t)}}l("pageshow",function(e){e.persisted&&(E||(E=!0,_.is_cached=!0))},!0),window.__browser_deprecation__||($(21,`&platformOnSite=${window.fedops.data.platformOnSite}`),k({transaction:{name:"PANORAMA_COMPONENT_LOAD"}}))}();
+</script>
+
+<!-- Polyfills check -->
+<script>
+  if (
+	typeof Promise === 'undefined' ||
+	typeof Set === 'undefined' ||
+	typeof Object.assign === 'undefined' ||
+	typeof Array.from === 'undefined' ||
+	typeof Symbol === 'undefined'
+  ) {
+	// send bi in order to detect the browsers in which polyfills are not working
+	window.fedops.phaseStarted('missing_polyfills')
+  }
+</script>
+
+<!-- Essential Viewer Model -->
+<script type="application/json" id="wix-essential-viewer-model">{"fleetConfig":{"fleetName":"thunderbolt-renderer-user-code","type":"GA","code":0},"mode":{"qa":false,"enableTestApi":false,"debug":false,"ssrIndicator":false,"ssrOnly":false,"siteAssetsFallback":"enable"},"componentsLibrariesTopology":[{"artifactId":"editor-elements","namespace":"wixui","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.12021.0"},{"artifactId":"editor-elements","namespace":"dsgnsys","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.12021.0"}],"siteFeaturesConfigs":{"sessionManager":{"isRunningInDifferentSiteContext":false}},"language":{"userLanguage":"lt"},"siteAssets":{"clientTopology":{"mediaRootUrl":"https:\/\/static.wixstatic.com","staticMediaUrl":"https:\/\/static.wixstatic.com\/media","moduleRepoUrl":"https:\/\/static.parastorage.com\/unpkg","fileRepoUrl":"https:\/\/static.parastorage.com\/services","siteAssetsUrl":"https:\/\/siteassets.parastorage.com","pageJsonServerUrls":["https:\/\/pages.parastorage.com","https:\/\/staticorigin.wixstatic.com","https:\/\/www.barkvilis.lt","https:\/\/fallback.wix.com\/wix-html-editor-pages-webapp\/page"],"pathOfTBModulesInFileRepoForFallback":"wix-thunderbolt\/dist\/"}},"siteFeatures":["assetsLoader","businessLogger","captcha","clickHandlerRegistrar","codeEmbed","commonConfig","componentsLoader","componentsRegistry","consentPolicy","cookiesManager","cyclicTabbing","environmentWixCodeSdk","environment","locationWixCodeSdk","multilingual","navigationManager","navigationPhases","ooi","pages","panorama","passwordProtectedPage","protectedPages","renderer","reporter","router","scrollRestoration","seoWixCodeSdk","seo","sessionManager","siteMembersWixCodeSdk","siteMembers","siteScrollBlocker","siteWixCodeSdk","stores","structureApi","thunderboltInitializer","tpaCommons","translations","warmupData","windowMessageRegistrar","windowWixCodeSdk","wixCustomElementComponent","wixEmbedsApi","componentsReact","platform"],"site":{"externalBaseUrl":"https:\/\/www.barkvilis.lt","isSEO":false},"media":{"staticMediaUrl":"https:\/\/static.wixstatic.com\/media","mediaRootUrl":"https:\/\/static.wixstatic.com\/","staticVideoUrl":"https:\/\/video.wixstatic.com\/"},"requestUrl":"https:\/\/www.barkvilis.lt\/sunu-nukailinimas","rollout":{"siteAssetsVersionsRollout":false,"isDACRollout":0,"isTBRollout":false},"commonConfig":{"brand":"wix","host":"VIEWER","bsi":"","consentPolicy":{},"consentPolicyHeader":{}},"interactionSampleRatio":0.01,"dynamicModelUrl":"https:\/\/www.barkvilis.lt\/_api\/v2\/dynamicmodel","accessTokensUrl":"https:\/\/www.barkvilis.lt\/_api\/v1\/access-tokens","experiments":{"specs.thunderbolt.allowWEBPTransformation":true}}</script>
+<script>window.viewerModel = JSON.parse(document.getElementById('wix-essential-viewer-model').textContent)</script>
+
+
+  <script data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/handleAccessTokens.inline.1abdcf11.bundle.min.js">!function(){"use strict";const e="tbReady",n=window.viewerModel.experiments["specs.thunderbolt.replaceDynamicModel"]?window.viewerModel.accessTokensUrl:window.viewerModel.dynamicModelUrl;if(viewerModel.experiments["specs.thunderbolt.hardenFetchAndXHR"]){let i=fetch;function t(){try{window.tb.init({fetch:i})}catch(e){console.error("Failed to initialize Thunderbolt:",e)}finally{window.removeEventListener(e,t),i=fetch}}addEventListener(e,t)}else window.fetchDynamicModel=()=>window.viewerModel.siteFeaturesConfigs.sessionManager.isRunningInDifferentSiteContext?Promise.resolve({}):fetch(n,{credentials:"same-origin"}).then((function(e){if(!e.ok)throw new Error(`[${e.status}]${e.statusText}`);return e.json()})),window.dynamicModelPromise=window.fetchDynamicModel()}();
+//# sourceMappingURL=https://static.parastorage.com/services/wix-thunderbolt/dist/handleAccessTokens.inline.1abdcf11.bundle.min.js.map</script>
+  
+
+<script>
+  window.commonConfig = viewerModel.commonConfig
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Šunų ir kačių kirpimas maudymas | Lucky Dog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<!-- All in One SEO Pack 2.2.5.1 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" itemprop="description" content="Teikiamos visos laidojimo paslaugos Vilniuje ir visoje Lietuvoje: dokumentų, susijusių su mirusiųjų laidojimu, tvarkymas, ritualinės, šarvojimo paslaugos." />
+
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+		<link rel="shortcut icon" href="http://cdn.imgbin.com/20/11/8/imgbin-graphics-flower-illustration-silhouette-flower-RutgDQp2buE7ZVFmZrZ8Y0u4C.jpg" type="image/x-icon" />
+	
+
+
+		<link rel="canonical" href="http://luckydog.lt/" />
+		<!-- /all in one seo pack -->
+		<link rel="alternate" type="application/rss+xml" title="Lucky Dog Grooming &raquo; Įrašų RSS srautas" href="http://luckydog.lt/feed/" />
+		<link rel="alternate" type="application/rss+xml" title="Lucky Dog Grooming &raquo; Komentarų RSS srautas" href="http://luckydog.lt/comments/feed/" />
+		<link rel="alternate" type="application/rss+xml" title="Lucky Dog Grooming &raquo; Įrašo „Pradžia“ komentarų RSS srautas" href="http://luckydog.lt/sample-page/feed/" />
+		<meta property="og:title" content="Pradžia"/><meta property="og:type" content="article"/><meta property="og:url" content="http://luckydog.lt/"/><meta property="og:site_name" content="Lucky Dog Grooming"/><meta property="og:image" content="http://luckydog.lt/wp-content/uploads/2015/03/Logo-laidojimaskremavimas220.png"/><link rel='stylesheet' id='category-posts-css'  href='http://luckydog.lt/wp-content/plugins/category-posts/cat-posts.css?ver=4.1.33' type='text/css' media='all' />
+		<link rel='stylesheet' id='contact-form-7-css'  href='http://luckydog.lt/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1' type='text/css' media='all' />
+		<link rel='stylesheet' id='cookie-notice-front-css'  href='http://luckydog.lt/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.1.33' type='text/css' media='all' />
+		<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://luckydog.lt/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.5.95&#038;ver=4.1.33' type='text/css' media='all' />
+		
+		<link rel='stylesheet'  href='http://luckydog.lt/wp-content/themes/demo-child/style.css?ver=4.1.33' type='text/css' media='all' />
+		<!--[if lte IE 9]>
+		<link rel='stylesheet' id='avada-shortcodes-css'  href='http://luckydog.lt/wp-content/themes/demo/shortcodes.css?ver=4.1.33' type='text/css' media='all' />
+		<![endif]-->
+		<link rel='stylesheet'   href='http://luckydog.lt/wp-content/themes/demo/css/animations.css?ver=4.1.33' type='text/css' media='all' />
+		<!--[if lte IE 8]>
+		<link rel='stylesheet' id='avada-IE8-css'  href='http://luckydog.lt/wp-content/themes/demo/css/ie8.css?ver=4.1.33' type='text/css' media='all' />
+		<![endif]-->
+		<!--[if IE]>
+		<link rel='stylesheet' id='avada-IE-css'  href='http://luckydog.lt/wp-content/themes/demo/css/ie.css?ver=4.1.33' type='text/css' media='all' />
+		<![endif]-->
+		<link rel='stylesheet'  href='http://luckydog.lt/wp-content/themes/demo/css/media.css?ver=4.1.33' type='text/css' media='all' />
+
+<!---------PROBA-------------->
+
+
+<!-- This site is optimized with the Yoast SEO plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta property="og:locale" content="lt_LT">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PRADŽIA - Lucky Dog">
+<meta property="og:url" content="#">
+<meta property="og:site_name" content="Lucky Dog">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Lucky Dog - luckydog.lt » Įrašų RSS srautas" href="http://luckydog.lt/feed/">
+<link rel="alternate" type="application/rss+xml" title="Lucky Dog - luckydog.lt » Komentarų RSS srautas" href="http://luckydog.lt/comments/feed/">
+
+<link rel="stylesheet" id="wplc-admin-style-emoji-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/js/vendor/wdt-emoji/wdt-emoji-bundle.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wplc-user-pro-styles-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/wplc_styles_pro.css?ver=4.9.18" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="http://luckydog.lt/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5" type="text/css" media="all">
+<link rel="stylesheet" id="cookie-notice-front-css" href="http://luckydog.lt/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.9.18" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="http://luckydog.lt/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8" type="text/css" media="all">
+
+<link rel="stylesheet" id="wplc-font-awesome-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/fontawesome-all.min.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wplc-style-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/wplcstyle.css?ver=8.1.7" type="text/css" media="all">
+
+<link rel="stylesheet" id="wplc-theme-palette-default-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/themes/theme-default.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wplc-theme-modern-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/themes/modern.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wplc-theme-position-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/css/themes/position-bottom-right.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wplc-gutenberg-template-styles-user-css" href="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/includes/blocks/wplc-chat-box/wplc_gutenberg_template_styles.css?ver=8.1.7" type="text/css" media="all">
+<link rel="stylesheet" id="wpml-legacy-horizontal-list-0-css" href="//vlr.lt/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.css?ver=1" type="text/css" media="all">
+
+<link rel="stylesheet" id="js_composer_front-css" href="http://luckydog.lt/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.5.5" type="text/css" media="all">
+<link rel="stylesheet" id="dt-web-fonts-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700&amp;ver=4.9.18" type="text/css" media="all">
+<link rel="stylesheet" id="dt-main-css" href="http://luckydog.lt/wp-content/themes/dt-the7/css/main.min.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="dt-awsome-fonts-back-css" href="http://luckydog.lt/wp-content/themes/dt-the7/fonts/FontAwesome/back-compat.min.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="dt-awsome-fonts-css" href="http://luckydog.lt/wp-content/themes/dt-the7/fonts/FontAwesome/css/fontawesome-all.min.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="dt-fontello-css" href="http://luckydog.lt/wp-content/themes/dt-the7/fonts/fontello/css/fontello.min.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="the7pt-static-css" href="http://luckydog.lt/wp-content/themes/dt-the7/css/post-type.css?ver=6.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="dt-custom-css" href="http://luckydog.lt/wp-content/uploads/the7-css/custom.css?ver=fb4b44266225" type="text/css" media="all">
+<link rel="stylesheet" id="dt-media-css" href="http://luckydog.lt/wp-content/uploads/the7-css/media.css?ver=fb4b44266225" type="text/css" media="all">
+<link rel="stylesheet" id="dt-legacy-css" href="http://luckydog.lt/wp-content/uploads/the7-css/legacy.css?ver=fb4b44266225" type="text/css" media="all">
+<link rel="stylesheet" id="the7pt.less-css" href="http://luckydog.lt/wp-content/uploads/the7-css/post-type-dynamic.css?ver=fb4b44266225" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="http://luckydog.lt/wp-content/themes/dt-the7/style.css?ver=6.4.2" type="text/css" media="all">
+
+<link rel="stylesheet" id="bsf-Defaults-css" href="http://luckydog.lt/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.9.18" type="text/css" media="all">
+<script type="text/javascript" src="http://luckydog.lt/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="http://luckydog.lt/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wplc_datetime_format = {"date_format":"Y F j","time_format":"G:i"};
+var tcx_api_key = "c580c0c0a06f4108304f650dd0c06b3a";
+var wplc_guid = "9ebd1811f2fe06662bcf693b06c7e5f011d7df8c";
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/js/wplc_server.js?ver=8.1.7"></script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/plugins/wp-live-chat-support/js/vendor/wdt-emoji/wdt-emoji-concat.min.js?ver=8.1.7"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/vlr.lt\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"1","refuse":"yes","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.44"></script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8"></script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8"></script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="http://luckydog.lt/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=6.4.2"></script>
+<link rel="https://api.w.org/" href="http://luckydog.lt/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://luckydog.lt/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://luckydog.lt/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.18">
+<link rel="shortlink" href="http://luckydog.lt/">
+<link rel="alternate" type="application/json+oembed" href="http://luckydog.lt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvlr.lt%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://luckydog.lt/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvlr.lt%2F&amp;format=xml">
+<meta name="generator" content="WPML ver:4.0.8 stt:1,33,42,47;">
+  <script type="text/javascript">
+    var wplc_ajaxurl = 'http://luckydog.lt/wp-admin/admin-ajax.php';
+    var wplc_nonce = 'a69b93af07';
+  </script>
+  <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://luckydog.lt/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-139710660-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-139710660-1');
+</script><script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100071332-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!---------PROBA-------------->
+
+	
+<!-- Подключаем CSS -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+<link rel="shortcut icon" href="http://cdn.imgbin.com/20/11/8/imgbin-graphics-flower-illustration-silhouette-flower-RutgDQp2buE7ZVFmZrZ8Y0u4C.jpg" type="image/x-icon" />
+
+
+</head>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Styling for the popup balloon */
+        .popup-balloon {
+            position: fixed;
+            top: -150px; /* Initially hidden above the screen */
+            right: 45px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+            animation: slideIn 0.5s ease forwards; /* Slide-in animation */
+        }
+
+        @keyframes slideIn {
+            from {
+                top: -100px;
+            }
+            to {
+                top: 25px;
+            }
+        }
+
+        /* Exit animation when closing the balloon */
+        .popup-balloon.hide {
+            animation: slideOut 0.5s ease forwards; /* Slide-out animation */
+        }
+
+        @keyframes slideOut {
+            from {
+                top: 125px;
+            }
+            to {
+                top: -100px;
+                opacity: 0; /* Fade out during slide-out */
+            }
+        }
+    </style>
+</head>
+
+
+ 
+
+
+
+
+
+
+
+	<!-- Отображаемое тело страницы -->
+	<body>	
+		<!-- Оболочка для демонстрации -->
+		<div class="wrapper">
+			<header id="header" class="header">					
+				<a><img class="header__logo" src="img/logo2.png" style="width: 20%;" alt="LuckyDogLogo"></a>
+			</header>
+
+
+<main class="page">
+	<div class="page__main-block main-block">
+		<div class="main-block__container _container">
+			<div class="main-block__body">
+			<h1 class="main-block__title">Šunų ir kačių NUKAILINIMAS</h1>
+			<div class="main-block__text">
+				**Gyvūno priežiūra** apima jūsų augintinio kailio ir odos valymą ir priežiūrą. Ji apima įvairias užduotis.<br>
+				Atminkite, kad kirpimas yra ne tik estetika – tai būdas parodyti meilę ir rūpestį mūsų mylimiems augintiniams! 🐾
+			</div>
+				
+			</div>
+			</div>
+			<div class="main-block__image _ibg">
+				<img src="img/LuckydogFonas44.PNG" style="height: 160vh;" alt="LuckydogFonas3">
+			</div>
+	</div>
+</main>
+
+
+
+<section class="page__services services">
+	<div class="services__container _container">
+		<div class="services__body">
+			<div class="services__column">
+				<div class="services__item item-service">
+					<div class="item-service__icon">
+						<img src="img/lotus-9.svg" width="60px" height="60px" alt="lotos">
+						<h3 class="item-service__title">NUKAILINIMAS</h3>
+						<div class="item-service__text">
+							1 Amerikiečių kokerspanielis 25 - 40<br>
+							2 Anglų kokerspanielis 25 - 40<br>
+							3 Auksaspalvis retriveris 35 - 55<br>
+							4 Australų aviganis 30 - 45<br>
+							5 Biglis 25 - 35<br>
+							6 Berno zenenhundas (kirpimas 25 EUR) 30 - 60<br>
+							7 Čihuahua 20 - 25<br>
+							8 Garbanotas bišonas 30 - 45<br>
+							9 Havanos bišonas 30 - 45<br>
+							10 Jorkšyro terjeras 20 - 30<br>
+							11 Labradoras 30 - 50<br>
+							12 Maltos bišonas 20 - 35<br>
+							13 Špicas 25 - 35<br>
+							14 Mopsas 25<br>
+							15 Maltipoo 25 - 70<br>
+							16 Pekinas 25 - 35<br>
+							17 Pudeliai 25 - 35<br>
+							18 Samojedas 40 - 80<br>
+							19 Sibiro haskis 50 - 90<br>
+							20 Škotų terjeras 25 - 35<br>
+							21 Vokiečių aviganis 40 - 70<br>
+							22 Katės (maudymas +10 EUR) 30 - 40 EUR</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="services__column">
+				<div class="services__item item-service">
+					<div class="item-service__icon">
+						<img src="img/lotus-9.svg" width="60px" height="60px" alt="lotos">
+							<h3 class="item-service__title">MAISTO PAPILDAI AUGINTINIAMS</h3>
+						<div class="item-service__text">BLA BLA BLA BLA.</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="services__column">
+				<div class="services__item item-service item-service_green">
+					<div class="item-service__icon">
+						<img src="img/lotus-9.svg" width="60px" height="60px" alt="lotos">
+						<h3 class="item-service__title item">VISOKIOS AKCIJOS</h3>
+						<div class="item-service__text-3">BLA BLA BLA BLA</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+<footer class="footer">
+	<div class="footer__bottom">
+		<div class="footer__container _container">
+
+
+
+
+
+<footer id="footer" class="footer solid-bg">
+
+	<!-- !Bottom-bar -->
+<div id="bottom-bar" class="logo-left" role="contentinfo">
+	<div class="wf-wrap">
+	<div class="wf-container-bottom">
+	
+		
+	
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Display star ratings -->
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star checked"></span>
+	<span class="fa fa-star"></span>
+	<span class="fa fa-star"></span>
+	
+	
+	
+	
+	<!-- index.html -->
+	
+	<!DOCTYPE html>
+	
+	
+	<head>
+		<title>Star Rating</title>
+		<meta name="viewport"
+			content="width=device-width, 
+					initial-scale=1" />
+		<link rel="stylesheet"
+			href="styles.css" />
+	</head>
+	
+	
+
+
+	<div class="wf-wrap">
+		<div class="wf-container-footer">
+			<div class="wf-container">
+				<section id="text_icl-10" class="widget widget_text_icl wf-cell wf-1-6">
+
+	<div class="textwidget"><p>Adresas AVIŽIENIIAI,<br>
+	Vilniaus rajonas<br>
+<div>El. paštas: <a href="mailto:margarita@luckydog.lt" target="_blank"><p>margarita@luckydog.lt</p></a></div>	
+<br>
+Tel. +370 685 44495<br>MARGARITA</p>
+</div>
+<br>
+</section><section id="text_icl-11" class="widget widget_text_icl wf-cell wf-1-6">		<div class="textwidget"><p>Darbo laikas:<br>
+I-VII: 8.00 – 19.00</p>
+</div>
+</section>					</div><!-- .wf-container -->
+		</div><!-- .wf-container-footer -->
+	</div><!-- .wf-wrap -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------->
+<div class="footer__social social">
+	<a href="https://www.facebook.com/profile.php?id=61556407858100" target="_blank" class="header__virsus">
+		<img id="FB" src="img/Facebook-Logo.wine.svg" width="30%" height="30%" alt="fb">
+	</a>
+
+		</div>
+		<div class="wf-float-left">
+
+			Visos teisės saugomos © 2024 LUCKY DOG
+		</div>
+	</div>
+
+
+
+</footer>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
